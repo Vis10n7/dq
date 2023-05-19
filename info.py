@@ -39,7 +39,7 @@ JOIN_IMG = (environ.get('JOIN_IMG', 'https://telegra.ph/file/2718e562b65da275a7c
 # Admins, Log, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5259051520').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
 login_channel = environ.get('LOGIN_CHANNEL')
@@ -84,7 +84,7 @@ GROUP_SUB = int(group_sub) if group_sub and id_pattern.search(group_sub) else No
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001529371079').split()]
-APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
+APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
 
 # Others
 VERIFY = bool(environ.get('VERIFY',True))
