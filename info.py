@@ -69,7 +69,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://RoyalDwip:RoyalDwip@cluster0.0sp6pvf.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "swami")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Files')
 
 # FSUB
@@ -87,17 +87,17 @@ CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id f
 APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY',True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in') #
-SHORTLINK_API = environ.get('SHORTLINK_API', '645f3cb39f7fd504c3de8e6adb71722fe5c3d8d0') #
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',False))
+VERIFY = bool(environ.get('VERIFY',False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdisklink.link') #
+SHORTLINK_API = environ.get('SHORTLINK_API', '295103441f0f27b48a3cbf94364fe5d1e6331c65') #
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',True))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG',True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
-S_GROUP = environ.get('S_GROUP',"https://t.me/+tG_HsZA8waBmYjE1")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/i24x7Update")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/NewMOvie1stOnTG')
+S_GROUP = environ.get('S_GROUP',"https://t.me/+fUv8WckDL7kwZWY1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/JB_Corporation")
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+fUv8WckDL7kwZWY1+fUv8WckDL7kwZWY1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/i24x7Update')
 MSG_ALRT = environ.get('MSG_ALRT', 'Request Again')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
