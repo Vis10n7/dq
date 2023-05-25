@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/i24x7Update'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+tG_HsZA8waBmYjE1')
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/jb_corporation'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+fUv8WckDL7kwZWY1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -135,7 +135,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [                         
-                          InlineKeyboardButton("❤️‍🔥 Download 👀", url='https://t.me/File_to_Direct_Download_Link_Bot')                         
+                          InlineKeyboardButton("❤️‍🔥 Movies Channel 👀", url='https://t.me/Jb_corporation')                         
                          ]
                         ]
                     )
@@ -151,7 +151,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("❤️‍🔥 Download ❤️‍🔥", url='https://t.me/File_to_Direct_Download_Link_Bot')   
+                          InlineKeyboardButton("❤️‍🔥 Movies Channel ❤️‍🔥", url='https://t.me/jb_corporation')   
                          ]
                         ]
                     )
@@ -249,7 +249,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                          [
-                          InlineKeyboardButton("❤️‍🔥 Download ❤️‍🔥", url='https://t.me/File_to_Direct_Download_Link_Bot')   
+                          InlineKeyboardButton("❤️‍🔥 Movies channel❤️‍🔥", url='https://t.me/jb_corporation')   
                          ]
                         ]
                     )
@@ -299,7 +299,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("✴️ Download ❤️‍🔥", url='https://t.me/File_to_Direct_Download_Link_Bot')   
+              InlineKeyboardButton("✴️ Movies Channel ❤️‍🔥", url='https://t.me/jb_corporation')   
              ]
               ]
        )
