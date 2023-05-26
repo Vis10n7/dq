@@ -1,4 +1,4 @@
-pyrogram>=2.0.100
+pyrogram>=2.0.30
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
@@ -6,18 +6,12 @@ marshmallow==3.14.1
 umongo==3.0.1
 requests
 bs4
-git+https://github.com/Joelkb/cinemagoer
-datetime
-pytz
-aiohttp
-python-dotenv
+git+https://github.com/KDBotz/cinemagoer
 psutil
-heroku3
-openai==0.25.0
-gunicorn 
-flask 
-
-
+pytz
+aiohttp==3.8.1
+Flask==2.2.2
+gunicorn==20.1.0
 
 
 
