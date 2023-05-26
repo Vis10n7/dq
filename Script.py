@@ -26,7 +26,7 @@ class script(object):
 
     ABOUT_TXT = """<b>
 ‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/vis10n7'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
 ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/vis10n7'>𒆜Vision​</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
@@ -37,7 +37,7 @@ class script(object):
 ⚠️꧁•⊹٭𝙸𝚏 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝 𝙸𝚝'𝚜 𝚂𝚘𝚞𝚛𝚌𝚎 𝚃𝚑𝚊𝚗 𝚈𝚘𝚞 𝙼𝚞𝚜𝚝 𝙲𝚘𝚍𝚎 𝚞𝚛 𝙾𝚠𝚗!٭⊹
 ◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ミ★ 𝘋𝘪𝘥𝘯'𝘵 𝘝𝘪𝘰𝘭𝘢𝘵𝘦𝘴 𝘈𝘯𝘺 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵 𝘐𝘯𝘧𝘳𝘪𝘯𝘨𝘦𝘮𝘦𝘯𝘵𝘴.𝘉𝘰𝘵 𝘑𝘶𝘴𝘵 𝘐𝘯𝘥𝘦𝘹 𝘍𝘪𝘭𝘦𝘴 𝘍𝘳𝘰𝘮 𝘚𝘰𝘶𝘳𝘤𝘦 𝘊𝘩𝘢𝘵𝘴 𝘈𝘶𝘵𝘰𝘮𝘢𝘵𝘪𝘤𝘢𝘭𝘭𝘺! ★彡</a>
 
-◆𝕮𝖔𝖓𝖙𝖗𝖎𝖇𝖚𝖙𝖔𝖗 𝕯𝖊𝖛 2​: <a href='https://t.me/i24x7Update'>i24x7Update ⏳⃝</a></b>"""
+◆𝕮𝖔𝖓𝖙𝖗𝖎𝖇𝖚𝖙𝖔𝖗 𝕯𝖊𝖛 2​: <a href='https://t.me/Vis10n7'>NikhiL ⏳⃝</a></b>"""
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
 <b>ɴᴏᴛᴇ:</b>
@@ -220,13 +220,13 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 Iғ ᴛʜᴇ ɢʀᴏᴜᴘ ᴄᴏᴘʏ ʀɪɢʜᴛ ɪꜱ ʟᴏꜱᴛ , ᴡʜᴇɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ ɪꜱ ꜱᴛᴀʀᴛᴇᴅ, ɪᴛ ᴡɪʟʟ ʙᴇ ɴᴏᴛɪғɪᴇᴅ ᴏɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ🤥
 
-©丅ᕼᗴ ᔕᗩᑎᗪᗰᗩᑎ """
+©VIs10n7 """
     QINFO = """
 ʜᴇʏ ʙʀᴏ ☻
 
 Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛʜᴇ ғɪʟᴇꜱ ʏᴏᴜ ᴡᴀɴᴛ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ⇓⇓
 
-©丅ᕼᗴ ᔕᗩᑎᗪᗰᗩᑎ """
+©Vis10n7 """
     REPRT_MSG = """ Reported To Admin"""
 
     EARN_TXT = """
@@ -298,7 +298,7 @@ Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛʜᴇ ғɪʟᴇꜱ 
 ------------------------------------
 This file 📁 will be deleted ❌ from this group 📍 within 10 ⏰ minutes due to copyright ©️
 
-⏩ How To Download Fast Else Watch Online : <a href='https://t.me/File_to_Direct_Download_Link_Bot'>Click Here</a>"""
+⏩ How To Download Fast Else Watch Online : <a href='https://t.me/i24x7Update'>Click Here</a>"""
 
     FILE_READY_TXT = """
 <b>ʜᴇʟʟᴏ {} 💞  
