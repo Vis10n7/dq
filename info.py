@@ -73,11 +73,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "swami")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Files')
 
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL',False)
+auth_channel = environ.get('AUTH_CHANNEL',True)
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL = environ.get("REQ_CHANNEL",True)
-REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else True
+REQ_CHANNEL = environ.get("REQ_CHANNEL",False)
+REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 group_sub = environ.get('GROUP_SUB')
 GROUP_SUB = int(group_sub) if group_sub and id_pattern.search(group_sub) else None
