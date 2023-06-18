@@ -88,8 +88,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
 
 # Others
 VERIFY = bool(environ.get('VERIFY',False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdisklink.link') #
-SHORTLINK_API = environ.get('SHORTLINK_API', '295103441f0f27b48a3cbf94364fe5d1e6331c65') #
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ez4short.com') #
+SHORTLINK_API = environ.get('SHORTLINK_API', '32fdbfdb7d05dbcd07252039e89ab6903816dc55') #
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',True))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG',True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
